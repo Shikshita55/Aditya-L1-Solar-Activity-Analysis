@@ -8,9 +8,9 @@
 
 ## Overview
 
-The Sun is a highly dynamic star where magnetic activity drives several energetic phenomena such as solar flares, coronal mass ejections (CMEs), and ultraviolet brightenings. Identifying and studying solar active regions is an important step toward understanding solar activity and space weather.
+The Sun is a highly dynamic star in which magnetic activity drives several energetic phenomena, such as solar flares, coronal mass ejections (CMEs), and ultraviolet brightenings. Identifying and studying solar active regions is an important step toward understanding solar activity and space weather.
 
-This project presents an image-processing based approach for detecting solar active regions using observations from India's first dedicated solar mission, **Aditya-L1**.
+This project presents an image-processing-based approach for detecting solar active regions using observations from India's first dedicated solar mission, **Aditya-L1**.
 
 The work focuses on developing a computational pipeline to process solar images, enhance important structures, and automatically identify regions of increased solar activity.
 
@@ -18,11 +18,11 @@ The work focuses on developing a computational pipeline to process solar images,
 
 ## Project Motivation
 
-Solar active regions contain strong and complex magnetic fields and are the primary locations where energetic solar events originate.
+Solar active regions contain strong, complex magnetic fields and are the primary sites where energetic solar events originate.
 
 Space-based solar observations provide high-quality data without atmospheric interference, enabling detailed analysis of these structures.
 
-The aim of this project is to explore how computational image-processing techniques can assist heliophysics research by extracting meaningful features from solar imagery.
+This project aims to explore how computational image-processing techniques can assist heliophysics research by extracting meaningful features from solar imagery.
 
 ---
 
@@ -138,6 +138,34 @@ The developed pipeline successfully identified solar active regions from Aditya-
 The results demonstrate that classical image-processing methods can effectively extract solar structures from ultraviolet observations.
 
 ---
+
+# Code & Notebook
+
+The complete Python implementation of this project is available as a Google Colab notebook.
+
+The notebook contains the complete workflow for solar active region detection using Aditya-L1 observations, including:
+
+- FITS image loading and analysis
+- Solar image preprocessing
+- Intensity normalization
+- Gaussian smoothing
+- Otsu threshold-based segmentation
+- Morphological noise removal
+- Connected component labeling
+- Active region visualization
+
+## Interactive Google Colab Notebook
+
+<a href="https://colab.research.google.com/drive/1a60Ynns5Bbf7fBJwNT-YNBi4wjbjFrxm?usp=sharing">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" 
+alt="Open In Colab"/>
+</a>
+
+<br>
+
+You can also access the notebook here:
+
+[Aditya-L1 Solar Active Region Detection - Part 1 (Google Colab)](https://colab.research.google.com/drive/1a60Ynns5Bbf7fBJwNT-YNBi4wjbjFrxm?usp=sharing)
 
 # Tools and Technologies
 
