@@ -156,17 +156,15 @@ The notebook contains the complete workflow for solar active region detection us
 
 ## Interactive Google Colab Notebook
 
-<a href="https://colab.research.google.com/drive/1a60Ynns5Bbf7fBJwNT-YNBi4wjbjFrxm?usp=sharing">
-<img src="https://colab.research.google.com/assets/colab-badge.svg" 
-alt="Open In Colab"/>
+<a href="https://colab.research.google.com/drive/1ho1vW4QvfKZdOL_3PKtRaC-cDbhEq797?usp=sharing">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
 <br>
 
 You can also access the notebook here:
 
-[[Aditya-L1 Solar Active Region Detection - Part 1 (Google Colab)](https://colab.research.google.com/drive/1ho1vW4QvfKZdOL_3PKtRaC-cDbhEq797?usp=sharing)](https://colab.research.google.com/drive/1a60Ynns5Bbf7fBJwNT-YNBi4wjbjFrxm?usp=sharing)
-
+[Aditya-L1 Solar Active Region Detection - Part 1 (Google Colab)](https://colab.research.google.com/drive/1ho1vW4QvfKZdOL_3PKtRaC-cDbhEq797?usp=sharing)
 # Tools and Technologies
 
 ## Programming Language
